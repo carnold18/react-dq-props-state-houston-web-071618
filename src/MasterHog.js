@@ -62,6 +62,9 @@ class MasterHog extends Component {
       </div>
       // Remember on Line 51 to return the function, using the (). Without this, we are only passing the function
       // istelf into the ul.
+
+      // Implement 'console.log(this.state)' in the render because it is always called when this node is inititated.
+      // This will show you what the state input is from the database.
     )
   }
 }
